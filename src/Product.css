@@ -234,12 +234,18 @@
 
 @media (max-width: 768px) {
   .products-section {
-    padding: 6rem 1.5rem 2rem;
+    padding: 8rem 1.25rem 2rem;
   }
-
+  .product-headings h2 {
+    font-size: 2rem;
+  }
+  .product-headings p {
+    font-size: 1rem;
+  }
   .products-card-container {
-    grid-template-columns: 1fr;
-    max-width: 28rem;
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    max-width: 26rem;
+    gap: 2rem;
     margin: 0 auto;
   }
 }
