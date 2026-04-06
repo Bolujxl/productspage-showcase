@@ -1,0 +1,27 @@
+<svg viewBox="0 0 300 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main logo icon - stylized shopping bag/retail -->
+  <g>
+    <!-- Bag shape -->
+    <path d="M 30 35 L 35 20 Q 35 15 40 15 L 70 15 Q 75 15 75 20 L 80 35 Z" 
+          fill="none" stroke="#0f766e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Bag body -->
+    <path d="M 30 35 L 25 85 Q 25 95 35 95 L 75 95 Q 85 95 85 85 L 80 35 Z" 
+          fill="#0f766e" opacity="0.2" stroke="#0f766e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Accent line 1 -->
+    <line x1="48" y1="35" x2="45" y2="85" stroke="#0f766e" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+    
+    <!-- Accent line 2 -->
+    <line x1="62" y1="35" x2="65" y2="85" stroke="#0f766e" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+    
+    <!-- Handle -->
+    <path d="M 45 35 Q 55 20 65 35" fill="none" stroke="#0f766e" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Brand text -->
+  <text x="110" y="70" font-family="'Plus Jakarta Sans', sans-serif" font-size="48" font-weight="700" 
+        fill="#0f766e" letter-spacing="-0.025em">
+    Reseil
+  </text>
+</svg>
